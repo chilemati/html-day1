@@ -1,0 +1,56 @@
+p{
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+}
+
+.gallary{
+    overflow: hidden;
+}
+
+.img1 img{
+width: 100px;
+height: 100px;
+}
+
+.redirect img{
+    width: 100px;
+    height: 100px;
+}
+
+.float .right{
+    float: right;
+}
+
+/* .flaot .clr{
+    clear: both;
+    display: table;
+    content: '';
+    
+   
+} */
+
+.movies video{
+    width: 200px;
+    height: 200px`````````;
+}
+
+
+
+/* for smaller screens */
+@media(max-width:600px){
+    body{
+        background-color: blue !important;
+       
+    }
+
+    p{
+        font-size: 3.5vw ;
+        width: 70%;
+    }
+    
+    html,body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+}
